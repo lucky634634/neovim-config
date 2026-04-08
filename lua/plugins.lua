@@ -21,6 +21,7 @@ vim.pack.add({
     { src = "https://github.com/kylechui/nvim-surround", version = vim.version.range("4.x") },
     "https://github.com/folke/which-key.nvim",
     "https://github.com/Exafunction/windsurf.vim",
+    { src = "https://github.com/nvim-treesitter/nvim-treesitter" }
 })
 
 require("plugins.mini-icons")
@@ -41,3 +42,4 @@ require("plugins.blink")
 require("plugins.fzf-lua")
 require("plugins.which-key")
 require("plugins.windsurf")
+require("plugins.treesitter")
