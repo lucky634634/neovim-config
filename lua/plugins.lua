@@ -22,7 +22,8 @@ vim.pack.add({
     "https://github.com/folke/which-key.nvim",
     "https://github.com/Exafunction/windsurf.vim",
     { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
-    "https://github.com/stevearc/conform.nvim"
+    "https://github.com/stevearc/conform.nvim",
+    { src = "https://github.com/mg979/vim-visual-multi",         branch = "master" },
 })
 
 require("plugins.mini-icons")
