@@ -24,6 +24,7 @@ vim.pack.add({
     { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
     "https://github.com/stevearc/conform.nvim",
     { src = "https://github.com/mg979/vim-visual-multi",         branch = "master" },
+    "https://github.com/nvim-tree/nvim-web-devicons"
 })
 
 require("plugins.mini-icons")
@@ -46,3 +47,4 @@ require("plugins.which-key")
 require("plugins.windsurf")
 require("plugins.treesitter")
 require("plugins.conform")
+require("plugins.nvim-web-devicons")
