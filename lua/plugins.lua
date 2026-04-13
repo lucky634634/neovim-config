@@ -1,30 +1,32 @@
+local gh = function(x) return "https://github.com/" .. x end
+local cb = function(x) return "https://codeberg.org/" .. x end
 vim.pack.add({
-    { src = 'https://github.com/nvim-mini/mini.icons',       version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini.files',       version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini.tabline',     version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini.statusline',  version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini.notify',      version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini.indentscope', version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini.pairs',       version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini.move',        version = 'stable' },
-    { src = 'https://github.com/nvim-mini/mini-git',         version = 'stable' },
+    { src = gh("nvim-mini/mini.icons"),           version = 'stable' },
+    { src = gh("nvim-mini/mini.files"),           version = 'stable' },
+    { src = gh("nvim-mini/mini.tabline"),         version = 'stable' },
+    { src = gh("nvim-mini/mini.statusline"),      version = 'stable' },
+    { src = gh("nvim-mini/mini.notify"),          version = 'stable' },
+    { src = gh("nvim-mini/mini.indentscope"),     version = 'stable' },
+    { src = gh("nvim-mini/mini.pairs"),           version = 'stable' },
+    { src = gh("nvim-mini/mini.move"),            version = 'stable' },
+    { src = gh("nvim-mini/mini-git"),             version = 'stable' },
     -- Mason
-    "https://github.com/mason-org/mason.nvim",
-    "https://github.com/mason-org/mason-lspconfig.nvim",
-    "https://github.com/nvimtools/none-ls.nvim",
-    "https://github.com/jay-babu/mason-null-ls.nvim",
-    "https://github.com/nvim-lua/plenary.nvim",
+    { src = gh("mason-org/mason.nvim") },
+    { src = gh("mason-org/mason-lspconfig.nvim") },
+    { src = gh("nvimtools/none-ls.nvim") },
+    { src = gh("jay-babu/mason-null-ls.nvim") },
+    { src = gh("nvim-lua/plenary.nvim") },
 
-    { src = "https://github.com/saghen/blink.cmp",       version = vim.version.range("v1.x") },
-    "https://github.com/rafamadriz/friendly-snippets",
-    "https://github.com/ibhagwan/fzf-lua",
-    { src = "https://github.com/kylechui/nvim-surround", version = vim.version.range("4.x") },
-    "https://github.com/folke/which-key.nvim",
-    "https://github.com/Exafunction/windsurf.vim",
-    { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
-    "https://github.com/stevearc/conform.nvim",
-    { src = "https://github.com/mg979/vim-visual-multi",         branch = "master" },
-    "https://github.com/nvim-tree/nvim-web-devicons"
+    { src = gh("saghen/blink.cmp"),               version = vim.version.range("v1.x") },
+    { src = gh("rafamadriz/friendly-snippets") },
+    { src = gh("ibhagwan/fzf-lua") },
+    { src = gh("kylechui/nvim-surround"),         version = vim.version.range("4.x") },
+    { src = gh("folke/which-key.nvim") },
+    { src = gh("Exafunction/windsurf.vim") },
+    { src = gh("nvim-treesitter/nvim-treesitter") },
+    { src = gh("stevearc/conform.nvim") },
+    { src = gh("mg979/vim-visual-multi"),         branch = "master" },
+    { src = gh("nvim-tree/nvim-web-devicons") }
 })
 
 require("plugins.mini-icons")
