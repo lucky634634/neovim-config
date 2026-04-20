@@ -27,7 +27,7 @@ vim.pack.add({
     { src = gh("stevearc/conform.nvim") },
     { src = gh("mg979/vim-visual-multi"),           branch = "master" },
     { src = gh("nvim-tree/nvim-web-devicons") },
-    { src = gh("romus204/tree-sitter-manager.nvim") }
+    { src = gh("romus204/tree-sitter-manager.nvim") },
 })
 
 require("plugins.mini-icons")

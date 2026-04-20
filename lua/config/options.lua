@@ -6,9 +6,10 @@ global.maplocalleader = " "
 
 o.number = true
 o.relativenumber = true
-vim.schedule(function()
-    o.clipboard:append("unnamedplus")
-end)
+-- vim.schedule(function()
+--     o.clipboard:append("unnamedplus")
+-- end)
+o.clipboard = "unnamedplus"
 o.syntax = "on"
 o.autoindent = true
 o.cursorline = true
